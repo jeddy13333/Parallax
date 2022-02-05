@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Parallax</title>
+</head>
+
+<body>
+    <section>
+        <img src="adrian-pelletier-HWXSmUoP66E-unsplash.jpg" id="bg">
+        <img src="moon-png-44668.png" id="moon">
+        <img src="mountain-11899.png" id="mountain" class="mountain">
+        <h2 id="text">Moon Light</h2>
+    </section>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet odio deserunt debitis veritatis libero soluta error accusantium incidunt delectus officiis.</p>
+    <script type="text/javascript">
+        let bg = document.getElementById('bg');
+        let moon = document.getElementById('moon');
+        let mountain = document.getElementById('mountain');
+
+        window.addEventListener('scroll', function() {
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            text.style.top = value * 0.55 + 'px';
+
+        })
+    </script>
+
+</body>
+
+</html>
