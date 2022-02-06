@@ -1,6 +1,6 @@
     @font-face {
         font-family: moon;
-        src: url('ASafePlaceToFall-MExB.ttf');
+        src: url(ASafePlaceToFall-MExB.ttf);
     }
     
     * {
@@ -62,7 +62,7 @@
         margin-top: -1em;
         position: relative;
         color: #fff;
-        font-size: 20em;
+        font-size: 10em;
         z-index: 1;
     }
     
