@@ -59,10 +59,11 @@
     }
     
     #text {
+        margin-right: 50%;
         margin-top: -1em;
         position: relative;
         color: #fff;
-        font-size: 10em;
+        font-size: 6em;
         z-index: 1;
     }
     
